@@ -4,7 +4,7 @@ This node app is designed to optimize a porfolio using the maximum sharpe ratio 
 
 HOW TO RUN
 1.  Get an API key from www.alphavantage.co
-2.  create a .env file and add ALPAVANTAGE_KEY={API KEY}
+2.  create an .env file and add ALPAVANTAGE_KEY={API KEY}
 3.  from the root directly, run npm i
 4.  visit src/index.js and modify riskFreeRate and listTickers
 5.  run npm start
