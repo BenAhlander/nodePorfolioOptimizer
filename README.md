@@ -1,4 +1,4 @@
-# nodePorfolioOptimizer
+# Node Porfolio Optimizer
 
 This node app is designed to optimize a porfolio using the maximum sharpe ratio porfolio designed by Harry M. Markowitz. This will find the effecient frontier based on historical returns and correlation matrices. All Api's are open source, however, a free API key is required.
 
