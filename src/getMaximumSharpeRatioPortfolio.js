@@ -14,12 +14,7 @@ export function getMaximumSharpeRatioPortfolio(
   listTickers
 ) {
   const arithmeticReturns = assetReturns.map(({ returns }, i) => {
-    console.log(
-      `average yearly return: ${getArithmeticAverageReturn(returns) * 12} for ${
-        listTickers[i]
-      }`
-    );
-    return getArithmeticAverageReturn(returns);
+    return getArithmeticAverageReturn(returns, listTickers[i]);
   });
   const body = {
     assets: assetReturns.length,

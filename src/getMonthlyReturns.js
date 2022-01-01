@@ -14,7 +14,9 @@ export function getMonthlyReturns(ticker) {
             return {
               date: key,
               nominalReturn: close - open,
-              percentReturn: (close - open) / open,
+              percentReturn: close / open - 1,
+              open,
+              close,
             };
           }
         );
