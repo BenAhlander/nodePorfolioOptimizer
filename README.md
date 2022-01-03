@@ -9,5 +9,3 @@ HOW TO RUN
 4.  visit src/index.js and modify riskFreeRate and listTickers
 5.  run npm start
 
-Note: I am student, doing this for education purposes. I am open for feedback and feel free to submit a pull request.
-
